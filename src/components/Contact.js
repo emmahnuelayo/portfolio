@@ -200,7 +200,7 @@ class Contact extends Component {
                 </Link>
                 <Link
                   target='_blank'
-                  href='https://wwww.linkedin.com/in/emmanuel-fagbemide-5a797b151'
+                  href='https://linkedin.com/in/emmanuel-fagbemide-5a797b151'
                 >
                   <LinkedInIcon sx={{ color: '#414141' }} />
                 </Link>

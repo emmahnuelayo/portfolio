@@ -8,6 +8,8 @@ import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
+
+
 const theme = createTheme({
   palette: {
     brownCol: {
@@ -26,23 +28,25 @@ function Banner() {
           display: 'flex',
           alignItems: 'center',
           flexDirection: 'column',
-          pt: '54px',
+          pt: '3.375rem',
           fontFamily: 'Product Sans',
           fontStyle: 'normal',
           textAlign: 'center',
-          mb: { xs: '128px', md: '256px' },
+          mb: { xs: '8rem', md: '16rem' },
         }}
       >
         <Typography
           component='h5'
           gutterBottom
           sx={{
+            fontFamily: 'Product Sans',
+            fontStyle: 'normal',
             width: { xs: '202px', md: '252px' },
             fontWeight: 'normal',
-            fontSize: { xs: '16px', md: '20px' },
-            lineHeight: { xs: '150.3%', md: '30px' },
+            fontSize: { xs: '1rem', md: '1.25rem' },
+            lineHeight: { xs: '1.5rem', md: '1.875rem' },
             color: '#414141',
-            mb: { xs: '18px', md: '24px' },
+            mb: { xs: '1.125rem', md: '1.5rem' },
           }}
         >
           Fullstack Developer, more like MERN stack
@@ -51,13 +55,15 @@ function Banner() {
           gutterBottom
           component='h6'
           sx={{
-            mx: { xs: '25px', md: '257px' },
+            fontFamily: 'Product Sans',
+            fontStyle: 'normal',
+            mx: { xs: '1.563rem', md: '16.063rem' },
             width: { xs: '310px', md: '726px' },
             fontWeight: 'bold',
-            fontSize: { xs: '48px', md: '72px' },
-            lineHeight: { xs: '58px', md: '87px' },
+            fontSize: { xs: '3rem', md: '4.5rem' },
+            lineHeight: { xs: '3.625rem', md: '5.438rem' },
             color: '#121212',
-            mb: { xs: '16px', md: '32px' },
+            mb: { xs: '1rem', md: '2rem' },
           }}
         >
           Less talk, Show me the{` `}
@@ -65,7 +71,12 @@ function Banner() {
             href='https://github.com/emmahnuelayo'
             underline='hover'
             target='_blank'
-            sx={{ color: '#D03C3C', textDecoration: 'none' }}
+            sx={{
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              color: '#D03C3C',
+              textDecoration: 'none',
+            }}
           >
             code
           </Link>
@@ -74,13 +85,15 @@ function Banner() {
           gutterBottom
           component='h6'
           sx={{
-            mx: { xs: '25px', md: '324px' },
+            fontFamily: 'Product Sans',
+            fontStyle: 'normal',
+            mx: { xs: '1.563rem', md: '20.25rem' },
             width: { xs: '310px', md: '792px' },
             fontWeight: 'normal',
-            fontSize: { xs: '18px', md: '30px' },
-            lineHeight: { xs: '28px', md: '45px' },
+            fontSize: { xs: '1.125rem', md: '1.875rem' },
+            lineHeight: { xs: '1.75rem', md: '2.813rem' },
             color: '#414141',
-            mb: { xs: '32px', md: '64px' },
+            mb: { xs: '2rem', md: '4rem' },
           }}
         >
           &lt;code&gt;Hello &#127758;&lt;/code&gt; I'm Emmanuel Fagbemide, a
@@ -92,14 +105,18 @@ function Banner() {
           spacing={{ xs: 2, md: 4 }}
           direction={{ xs: 'column', md: 'row' }}
           sx={{
-            mx: { xs: '98px', md: '513px' },
+            fontFamily: 'Product Sans',
+            fontStyle: 'normal',
+            mx: { xs: '6.125rem', md: '32.063rem' },
           }}
         >
           <Button
             variant='contained'
             color='brownCol'
             sx={{
-              width: { xs: '164px', md: '213px' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              width: { xs: '10.25rem', md: '13.313rem' },
               height: { xs: '58px', md: '68px' },
             }}
             href='#myWorks'
@@ -110,6 +127,8 @@ function Banner() {
             variant='outlined'
             color='brownCol'
             sx={{
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
               width: { xs: '164px', md: '213px' },
               height: { xs: '58px', md: '68px' },
             }}

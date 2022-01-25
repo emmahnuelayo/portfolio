@@ -36,9 +36,11 @@ function Footer() {
           component='h5'
           gutterBottom
           sx={{
-            fontWeight: 'normal',
-            fontSize: { xs: '16px', md: '20px' },
-            lineHeight: { xs: '150.3%', md: '30px' },
+            fontFamily: 'Product Sans',
+            fontStyle: 'normal',
+            fontWeight: 'bold',
+            fontSize: { xs: '1.125rem', md: '1.5rem' },
+            lineHeight: { xs: '1.5rem', md: '2rem' },
             color: '#414141',
             mb: { xs: '18px', md: '24px' },
             mr: { xs: '9.5px', md: '18px' },
@@ -49,8 +51,8 @@ function Footer() {
         <FavoriteIcon
           color='brownCol'
           sx={{
-            fontSize: { xs: '16px', md: '20px' },
-            lineHeight: { xs: '150.3%', md: '30px' },
+            fontSize: { xs: '1.125rem', md: '1.5rem' },
+            lineHeight: { xs: '1.5rem', md: '2rem' },
             mb: { xs: '18px', md: '24px' },
           }}
         />

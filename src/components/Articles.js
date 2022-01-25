@@ -31,9 +31,11 @@ function Articles() {
               gutterBottom
               component='h5'
               sx={{
+                fontFamily: 'Product Sans',
+                fontStyle: 'normal',
                 fontWeight: 'normal',
-                fontSize: { xs: '16px', md: '24px' },
-                lineHeight: { xs: '19px', md: '40px' },
+                fontSize: { xs: '1rem', md: '1.5rem' },
+                lineHeight: { xs: '1.188rem', md: '2.5rem' },
                 color: '#414141',
                 mb: { xs: '4px', md: '4px' },
               }}
@@ -44,9 +46,11 @@ function Articles() {
               gutterBottom
               component='h5'
               sx={{
+                fontFamily: 'Product Sans',
+                fontStyle: 'normal',
                 fontWeight: 'bold',
-                fontSize: { xs: '36px', md: '60px' },
-                lineHeight: { xs: '44px', md: '73px' },
+                fontSize: { xs: '2.25rem', md: '3.75rem' },
+                lineHeight: { xs: '2.813rem', md: '4.563rem' },
                 color: '#d03c3c',
                 mb: { xs: '4px', md: '4px' },
               }}
@@ -55,6 +59,8 @@ function Articles() {
             </Typography>
             <Divider
               sx={{
+                fontFamily: 'Product Sans',
+                fontStyle: 'normal',
                 width: { xs: '66px', md: '108px' },
                 height: { xs: '5px', md: '5px' },
                 backgroundColor: '#d03c3c',
@@ -72,12 +78,11 @@ function Articles() {
             <Box component='section'>
               {articles.data.map((article, i) => {
                 return (
-                  <Box
-                    component='article'
-                    key={i}
-                  >
+                  <Box component='article' key={i}>
                     <Box
                       sx={{
+                        fontFamily: 'Product Sans',
+                        fontStyle: 'normal',
                         display: 'flex',
                         justifyContent: 'space-between',
                         mb: { xs: '48px', md: '67px' },
@@ -87,10 +92,12 @@ function Articles() {
                         gutterBottom
                         component='h6'
                         sx={{
+                          fontFamily: 'Product Sans',
+                          fontStyle: 'normal',
                           width: { xs: '242px', md: '616px' },
                           fontWeight: 'normal',
-                          fontSize: { xs: '20px', md: '24px' },
-                          lineHeight: { xs: '30px', md: '30px' },
+                          fontSize: { xs: '1.25rem', md: '1.5rem' },
+                          lineHeight: { xs: '1.516rem', md: '1.875rem' },
                           color: '#212121',
                         }}
                       >

@@ -41,7 +41,7 @@ function Navbar() {
               component='img'
               src={Logo}
               alt='my logo'
-              sx={{ height: { md: '67px' } }}
+              sx={{ height: { md: '80px' }, width: { md: '100px' } }}
             />
           </Link>
           <Box sx={{ display: { xs: 'flex' } }}>
@@ -52,7 +52,7 @@ function Navbar() {
               onClick={handleOpenNavMenu}
               aria-controls='menu-appbar'
             >
-              <MenuIcon sx={{ color: '#212121' }} />
+              <MenuIcon sx={{ color: '#212121', fontSize: { md: '48px' } }} />
             </IconButton>
             <Menu
               id='menu-appbar'
@@ -69,6 +69,8 @@ function Navbar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
+                fontFamily: 'Product Sans',
+                fontStyle: 'normal',
                 display: { xs: 'block' },
               }}
             >

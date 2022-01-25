@@ -45,10 +45,12 @@ function Portfolio() {
                 gutterBottom
                 component='h5'
                 sx={{
+                  fontFamily: 'Product Sans',
+                  fontStyle: 'normal',
                   width: { xs: '92px', md: '122px' },
                   fontWeight: 'normal',
-                  fontSize: { xs: '16px', md: '24px' },
-                  lineHeight: { xs: '26px', md: '40px' },
+                  fontSize: { xs: '1rem', md: '1.5rem' },
+                  lineHeight: { xs: '1.625rem', md: '2.5rem' },
                   color: '#414141',
                   mb: { xs: '4px', md: '4px' },
                 }}
@@ -59,11 +61,13 @@ function Portfolio() {
                 gutterBottom
                 component='h5'
                 sx={{
+                  fontFamily: 'Product Sans',
+                  fontStyle: 'normal',
                   width: { xs: '342px', md: '423px' },
 
                   fontWeight: 'bold',
-                  fontSize: { xs: '36px', md: '48px' },
-                  lineHeight: { xs: '44px', md: '58px' },
+                  fontSize: { xs: '2.25rem', md: '3rem' },
+                  lineHeight: { xs: '2.75rem', md: '3.625rem' },
                   color: '#d03c3c',
                   mb: { xs: '4px', md: '10px' },
                 }}
@@ -72,13 +76,15 @@ function Portfolio() {
               </Typography>
               <Divider
                 sx={{
+                  fontFamily: 'Product Sans',
+                  fontStyle: 'normal',
                   width: { xs: '112px', md: '180px' },
                   height: { xs: '5px', md: '5px' },
                   backgroundColor: '#d03c3c',
                   mb: { xs: '40px', md: '96px' },
                 }}
               />
-              <Grid container spacing={{ xs: 1, md: 0.5, lg: 2 }}>
+              <Grid container spacing={{ xs: 1, md: 2, lg: 3 }}>
                 {portfolios.data.map((portfolio, i) => {
                   return (
                     <Grid
@@ -86,26 +92,42 @@ function Portfolio() {
                       xs={12}
                       md={6}
                       key={i}
-                      sx={{ mb: { xs: '48px', md: '24px' }, justifyContent: 'space-around', display: 'flex' }}
+                      sx={{
+                        fontFamily: 'Product Sans',
+                        fontStyle: 'normal',
+                        mb: { xs: '48px', md: '24px' },
+                        justifyContent: 'space-around',
+                        display: 'flex',
+                      }}
                     >
                       <Card
                         sx={{
                           display: 'flex',
-                          boxShadow: 'none',
                           border: 'none',
                           alignItems: 'center',
                         }}
                       >
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                        <Box
+                          sx={{
+                            fontFamily: 'Product Sans',
+                            fontStyle: 'normal',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'flex-start',
+                            alignItems: 'flex-start',
+                          }}
+                        >
                           <CardContent sx={{ flex: '1 0 auto' }}>
                             <Typography
                               gutterBottom
                               variant='h5'
                               component='div'
                               sx={{
+                                fontFamily: 'Product Sans',
+                                fontStyle: 'normal',
                                 fontWeight: 'bold',
-                                fontSize: { xs: '20px', md: '28px' },
-                                lineHeight: { xs: '24px', md: '34px' },
+                                fontSize: { xs: '1.25rem', md: '1.75rem' },
+                                lineHeight: { xs: '1.5rem', md: '2.125rem' },
                                 color: '#212121',
                                 letterSpacing: { xs: '0.01em' },
                                 mb: { xs: '8px', md: '16px' },
@@ -118,9 +140,11 @@ function Portfolio() {
                               variant='body2'
                               component='h6'
                               sx={{
+                                fontFamily: 'Product Sans',
+                                fontStyle: 'normal',
                                 fontWeight: 'normal',
-                                fontSize: { xs: '14px', md: '18px' },
-                                lineHeight: { xs: '21px', md: '27px' },
+                                fontSize: { xs: '0.875rem', md: '1.125rem' },
+                                lineHeight: { xs: '1.313rem', md: '1.688rem' },
                                 color: '#212121',
                                 letterSpacing: { xs: '0.01em' },
                               }}
@@ -134,9 +158,11 @@ function Portfolio() {
                               size='small'
                               color='brownCol'
                               style={{
+                                fontFamily: 'Product Sans',
+                                fontStyle: 'normal',
                                 fontWeight: { xs: 'bold' },
-                                fontSize: { xs: '12px' },
-                                lineHeight: { xs: '19px', md: '20px' },
+                                fontSize: { xs: '0.75rem' },
+                                lineHeight: { xs: '1.188rem', md: '1.25rem' },
                               }}
                             >
                               Visit Site
@@ -150,11 +176,13 @@ function Portfolio() {
                             width: { xs: '112px', md: '204px' },
                             height: { xs: '90.99px', md: '164px' },
                           }}
-                          image={portfolio.attributes.portfolioImg.data.attributes.url}
+                          image={
+                            portfolio.attributes.portfolioImg.data.attributes
+                              .url
+                          }
                           alt={portfolio.attributes.portfolioTitle}
                         />
                       </Card>
-              
                     </Grid>
                   );
                 })}

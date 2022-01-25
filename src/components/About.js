@@ -10,22 +10,26 @@ import me from './images/me.png';
 
 function About() {
   return (
-    <Container id='aboutMe'
+    <Container
+      id='aboutMe'
       component='section'
       sx={{
         fontFamily: 'Product Sans',
         fontStyle: 'normal',
         ml: { xs: 'auto', md: 'auto' },
+        mb: { xs: '100px', md: '200px' },
       }}
     >
       <Typography
         gutterBottom
         component='h5'
         sx={{
+          fontFamily: 'Product Sans',
+          fontStyle: 'normal',
           width: { xs: 'auto', md: '122px' },
           fontWeight: 'normal',
-          fontSize: { xs: '16px', md: '24px' },
-          lineHeight: { xs: '26px', md: '40px' },
+          fontSize: { xs: '1rem', md: '1.5rem' },
+          lineHeight: { xs: '1.625rem', md: '2.5rem' },
           color: '#414141',
           mb: { xs: '4px', md: '4px' },
         }}
@@ -36,11 +40,13 @@ function About() {
         gutterBottom
         component='h5'
         sx={{
+          fontFamily: 'Product Sans',
+          fontStyle: 'normal',
           width: { xs: '162px', md: '275px' },
 
           fontWeight: 'bold',
-          fontSize: { xs: '36px', md: '60px' },
-          lineHeight: { xs: '44px', md: '73px' },
+          fontSize: { xs: '2.25rem', md: '3.75rem' },
+          lineHeight: { xs: '2.75rem', md: '4.563rem' },
           color: '#d03c3c',
           mb: { xs: '4px', md: '4px' },
         }}
@@ -49,14 +55,18 @@ function About() {
       </Typography>
       <Divider
         sx={{
+          fontFamily: 'Product Sans',
+          fontStyle: 'normal',
           width: { xs: '66px', md: '113px' },
-
+          height: { xs: '5px', md: '5px' },
           backgroundColor: '#d03c3c',
           mb: { xs: '40px', md: '96px' },
         }}
       />
       <Box
         sx={{
+          fontFamily: 'Product Sans',
+          fontStyle: 'normal',
           display: 'flex',
           flexDirection: { xs: 'column', md: 'row' },
           justifyContent: { md: 'space-between' },
@@ -64,23 +74,35 @@ function About() {
       >
         <Box
           sx={{
+            fontFamily: 'Product Sans',
+            fontStyle: 'normal',
             position: 'relative',
-            width: { xs: '262px', md: '500px' },
+            width: { xs: '262px', md: '380px', lg: '682px' },
+            mt: { md: '100px' },
             mx: { xs: 'auto' },
+            mb: { xs: '3.681rem', md: '0' },
             order: { xs: 1, md: 2 },
+            height: { xs: '262px', md: '380px', lg: '682px' },
+            overflow: 'hidden',
+            borderRadius: {
+              xs: '50%',
+              md: '50%',
+            },
+            display: { md: 'flex' },
+            alignItems: { md: 'center' },
+            justifyContent: { md: 'center' },
           }}
         >
           <Box
             component='img'
             src={me}
             sx={{
-              width: { xs: '238.42px', md: '225px', lg: '355px' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
 
               backgroundColor: '#d03c3c',
-              borderRadius: {
-                xs: '131px 131px 131px 131px',
-                md: '500px  500px 500px 500px',
-              },
+              width: '100%',
+              height: 'auto',
             }}
           />
         </Box>
@@ -89,11 +111,13 @@ function About() {
             gutterBottom
             component='h4'
             sx={{
-              width: { xs: 'auto', md: 'auto' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              width: { xs: 'auto', md: '400px' },
 
               fontWeight: 'normal',
-              fontSize: { xs: '24px', md: '36px' },
-              lineHeight: { xs: '29px', md: '44px' },
+              fontSize: { xs: '1.5rem', md: '2.25rem' },
+              lineHeight: { xs: '1.813rem', md: '2.75rem' },
               color: '#212121',
               mb: { xs: '16px', md: '24px' },
             }}
@@ -104,11 +128,13 @@ function About() {
             gutterBottom
             component='h6'
             sx={{
-              width: { xs: 'auto', md: '572px' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              width: { xs: 'auto', md: '400px' },
 
               fontWeight: 'normal',
-              fontSize: { xs: '18px', md: '24px' },
-              lineHeight: { xs: '30px', md: '40px' },
+              fontSize: { xs: '1.125rem', md: '1.5rem' },
+              lineHeight: { xs: '1.875rem', md: '2.5rem' },
               color: '#414141',
               mb: { xs: '48px', md: '64px' },
             }}
@@ -122,11 +148,13 @@ function About() {
             gutterBottom
             component='h4'
             sx={{
-              width: { xs: '275px', md: '363px' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              width: { xs: '275px', md: '400px' },
 
               fontWeight: 'normal',
-              fontSize: { xs: '24px', md: '36px' },
-              lineHeight: { xs: '29px', md: '44px' },
+              fontSize: { xs: '1.5rem', md: '2.25rem' },
+              lineHeight: { xs: '1.813rem', md: '2.75rem' },
               color: '#212121',
               mb: { xs: '16px', md: '24px' },
             }}
@@ -137,11 +165,13 @@ function About() {
             gutterBottom
             component='h6'
             sx={{
-              width: { xs: 'auto', md: '572px' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              width: { xs: 'auto', md: '400px' },
 
               fontWeight: 'normal',
-              fontSize: { xs: '18px', md: '24px' },
-              lineHeight: { xs: '30px', md: '40px' },
+              fontSize: { xs: '1.125rem', md: '1.5rem' },
+              lineHeight: { xs: '1.875rem', md: '2.5rem' },
               color: '#414141',
               mb: { xs: '48px', md: '64px' },
             }}
@@ -155,11 +185,13 @@ function About() {
             gutterBottom
             component='h4'
             sx={{
-              width: { xs: '275px', md: '363px' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              width: { xs: '275px', md: '400px' },
 
               fontWeight: 'normal',
-              fontSize: { xs: '24px', md: '36px' },
-              lineHeight: { xs: '29px', md: '44px' },
+              fontSize: { xs: '1.5rem', md: '2.25rem' },
+              lineHeight: { xs: '1.813rem', md: '2.75rem' },
               color: '#212121',
               mb: { xs: '16px', md: '24px' },
             }}
@@ -170,18 +202,19 @@ function About() {
             gutterBottom
             component='h6'
             sx={{
-              width: { xs: 'auto', md: '572px' },
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
+              width: { xs: 'auto', md: '400px' },
 
               fontWeight: 'normal',
               fontSize: { xs: '18px', md: '24px' },
               lineHeight: { xs: '30px', md: '40px' },
               color: '#414141',
-              mb: { xs: '48px', md: '64px' },
             }}
           >
-            I speak JavaScript. I write react.js, node.js, express, mongoDB
-            (mongoose). Of course HTML, CSS, SASS, bootstrap, MUI, gatsby, redux
-            etc
+            I speak JavaScript. I write react.js, node.js, express. I also have
+            a solid grasp of HTML, CSS, SASS, bootstrap, MUI, gatsby, redux,
+            mongoDB (mongoose), etc
           </Typography>
         </Box>
       </Box>

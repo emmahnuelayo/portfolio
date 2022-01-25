@@ -97,10 +97,12 @@ class Contact extends Component {
             gutterBottom
             component='h5'
             sx={{
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
               width: { xs: '131px', md: '163px' },
               fontWeight: 'normal',
-              fontSize: { xs: '16px', md: '20px' },
-              lineHeight: { xs: '26px', md: '33px' },
+              fontSize: { xs: '1rem', md: '1.25rem' },
+              lineHeight: { xs: '1.625rem', md: '2.063rem' },
               color: '#414141',
               mb: { xs: '4px', md: '4px' },
             }}
@@ -111,10 +113,12 @@ class Contact extends Component {
             gutterBottom
             component='h5'
             sx={{
+              fontFamily: 'Product Sans',
+              fontStyle: 'normal',
               width: { xs: '271px', md: '441px' },
               fontWeight: 'bold',
-              fontSize: { xs: '30px', md: '60px' },
-              lineHeight: { xs: '36px', md: '73px' },
+              fontSize: { xs: '2.25rem', md: '3.75rem' },
+              lineHeight: { xs: '2.813rem', md: '4.563rem' },
               color: '#d03c3c',
               mb: { xs: '4px', md: '4px' },
             }}
@@ -142,10 +146,12 @@ class Contact extends Component {
                 gutterBottom
                 component='h5'
                 sx={{
+                  fontFamily: 'Product Sans',
+                  fontStyle: 'normal',
                   width: { xs: '260px', md: '340px' },
                   fontWeight: 'normal',
-                  fontSize: { xs: '24px', md: '36px' },
-                  lineHeight: { xs: '29px', md: '44px' },
+                  fontSize: { xs: '1.5rem', md: '2.25rem' },
+                  lineHeight: { xs: '1.813rem', md: '2.75rem' },
                   color: '#121212',
                   mb: { xs: '16px', md: '24px' },
                 }}
@@ -156,10 +162,12 @@ class Contact extends Component {
                 gutterBottom
                 component='h6'
                 sx={{
+                  fontFamily: 'Product Sans',
+                  fontStyle: 'normal',
                   width: { xs: '363px', md: '392px' },
                   fontWeight: 'normal',
-                  fontSize: { xs: '18px', md: '20px' },
-                  lineHeight: { xs: '30px', md: '33px' },
+                  fontSize: { xs: '1.125rem', md: '1.25rem' },
+                  lineHeight: { xs: '1.875rem', md: '2.063rem' },
                   color: '#414141',
                   mb: { xs: '8px', md: '16px' },
                 }}
@@ -170,10 +178,12 @@ class Contact extends Component {
                 gutterBottom
                 component='h6'
                 sx={{
+                  fontFamily: 'Product Sans',
+                  fontStyle: 'normal',
                   width: { xs: '267px', md: '285px' },
                   fontWeight: 'normal',
-                  fontSize: { xs: '18px', md: '20px' },
-                  lineHeight: { xs: '30px', md: '33px' },
+                  fontSize: { xs: '1.125rem', md: '1.25rem' },
+                  lineHeight: { xs: '1.875rem', md: '2.063rem' },
                   color: '#414141',
                   mb: { xs: '32px', md: '48px' },
                 }}
@@ -184,10 +194,12 @@ class Contact extends Component {
                 gutterBottom
                 component='h5'
                 sx={{
+                  fontFamily: 'Product Sans',
+                  fontStyle: 'normal',
                   width: { xs: '231px', md: '297px' },
                   fontWeight: 'normal',
-                  fontSize: { xs: '24px', md: '36px' },
-                  lineHeight: { xs: '29px', md: '44px' },
+                  fontSize: { xs: '1.5rem', md: '2.25rem' },
+                  lineHeight: { xs: '1.813rem', md: '2.75rem' },
                   color: '#121212',
                   mb: { xs: '16px', md: '20px' },
                 }}
@@ -228,6 +240,8 @@ class Contact extends Component {
                     fullWidth
                     value={this.state.valueInput}
                     sx={{
+                      fontFamily: 'Product Sans',
+                      fontStyle: 'normal',
                       mb: { xs: '32px', lg: '64px' },
                       width: { xs: '310px', lg: '580px' },
                       backgroundColor: '#f6f6f6',
@@ -244,6 +258,8 @@ class Contact extends Component {
                     value={this.state.valueTextArea}
                     onChange={this.handleChangeTextArea}
                     sx={{
+                      fontFamily: 'Product Sans',
+                      fontStyle: 'normal',
                       mb: { xs: '32px', lg: '64px' },
                       width: { xs: '310px', lg: '580px' },
                       backgroundColor: '#f6f6f6',
@@ -255,7 +271,11 @@ class Contact extends Component {
                   size='large'
                   type='submit'
                   fullWidth
-                  sx={{ width: { xs: '116px', lg: '131px' } }}
+                  sx={{
+                    fontFamily: 'Product Sans',
+                    fontStyle: 'normal',
+                    width: { xs: '116px', lg: '131px' },
+                  }}
                   color='brownCol'
                 >
                   Send

@@ -68,7 +68,7 @@ function Portfolio() {
                   mb: { xs: '4px', md: '10px' },
                 }}
               >
-                Featured Work
+                Featured Works
               </Typography>
               <Divider
                 sx={{

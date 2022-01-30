@@ -9,15 +9,15 @@ import Container from '@mui/material/Container';
 import Navbar from '../../components/Navbar';
 import Home from '../../components/Home.js';
 import Footer from '../../components/Footer.js';
+import './index.css'
 
 function App() {
   return (
     <Container
       maxWidth='xl'
       sx={{
+        width: '100%',
         backgroundColor: '#ffffff',
-        m: '0px',
-        p: '0px',
       }}
     >
       <Navbar />

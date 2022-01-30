@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Divider from '@mui/material/Divider';
 
-import me from './images/me.png';
+import me from './images/me.jpg';
 
 function About() {
   return (

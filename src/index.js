@@ -28,7 +28,7 @@ import client from './utils/apolloClient'
 //We used onError to catch GraphQL and Network errors and show them to console, and we are using the GraphQL endpoint for Strapi http://localhost:1337/graphql.
 
 ReactDOM.render(
-  <ApolloProvider client={client}>
+  <ApolloProvider  client={client}>
     <App />
   </ApolloProvider>,
   document.getElementById('root')

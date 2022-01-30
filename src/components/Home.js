@@ -10,20 +10,22 @@ import Contact from './Contact';
 
 function Home() {
   return (
-    <Container component='main'
+    <Container
+      component='main'
       sx={{
         display: 'flex',
-        flexDirection: 'column',
-        boxSizing: 'border-box',
-        m: '0px',
-        p: '0px',
+        flexFlow: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        mx: '0',
+        p: '0',
       }}
     >
       <Banner />
       <About />
       <Portfolio />
       <Articles />
-      <Contact/>
+      <Contact />
     </Container>
   );
 }

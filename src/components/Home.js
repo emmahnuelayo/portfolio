@@ -17,8 +17,8 @@ function Home() {
         flexFlow: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        mx: '0',
-        p: '0',
+        p: 'auto',
+        backgroundColor: '#fff',
       }}
     >
       <Banner />

@@ -96,7 +96,7 @@ function Banner() {
             mb: { xs: '2rem', md: '4rem' },
           }}
         >
-          &lt;code&gt;Hello &#127758;&lt;/code&gt; I'm Emmanuel Fagbemide, a
+          &lt;code&gt;Hello <span role='img' aria-label='world'>&#127758;</span>&lt;/code&gt; I'm Emmanuel Fagbemide, a
           fullstack developer (MERN side of it) based in Lagos, Nigeria. I'm
           available to take your platform from just ideas to fast, responsive
           websites and web apps.
